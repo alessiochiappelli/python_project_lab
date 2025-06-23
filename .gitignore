@@ -1,0 +1,21 @@
+# Ambiente virtuale
+venv/
+
+# File temporanei di sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File temporanei di test
+.pytest_cache/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# File di log
+*.log
+
+# Sistema operativo
+.DS_Store
