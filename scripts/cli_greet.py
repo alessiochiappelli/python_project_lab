@@ -1,11 +1,12 @@
 import argparse
-from app.utils import greet
+from app.greeter import Greeter
 
 def run_cli_greet(name:str) -> str:
     """
-    Esegue il saluto tramite CLI
+    Crea un oggetto Greeter e stampa il saluto.
     """
-    print(greet(name))
+    obj_greeter = Greeter(name)
+    print(obj_greeter.greet())
 
 def main():
     # Crea un parser per gli argomenti della riga di comando

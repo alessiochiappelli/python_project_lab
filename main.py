@@ -1,5 +1,5 @@
-from app.utils import greet
+from app.greeter import Greeter
 
 if __name__ == "__main__":
-    name = "Alessio"
-    print(greet(name))
+    obj_greeter = Greeter("Alessio")
+    print(obj_greeter.greet())
