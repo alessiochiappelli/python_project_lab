@@ -98,19 +98,19 @@ PYTHONPATH=src pytest
 
 ## 📚 Glossario dei concetti chiave
 
-| Termine               | Significato |
-|-----------------------|-------------|
-| Modulo                | File `.py` che contiene funzioni o classi riutilizzabili |
-| Package               | Cartella con `__init__.py` che può contenere moduli o altri package |
-| Import                | Meccanismo per usare codice scritto altrove |
-| PYTHONPATH            | Variabile d’ambiente che dice a Python dove cercare moduli |
-| Ambiente virtuale     | Spazio isolato per le dipendenze di un progetto |
-| Test                  | Verifica automatica del comportamento del codice |
-| Test parametrizzato   | Test eseguito con input multipli grazie a `@pytest.mark.parametrize` |
-| CLI                   | Interfaccia da terminale per eseguire script Python |
-| `argparse`            | Modulo Python per gestire gli argomenti da terminale |
-| `--help`              | Opzione automatica per mostrare le istruzioni d’uso |
-| `-m`                  | Opzione per eseguire moduli come parte di un package |
+| Termine             | Significato                                                          |
+| ------------------- | -------------------------------------------------------------------- |
+| Modulo              | File `.py` che contiene funzioni o classi riutilizzabili             |
+| Package             | Cartella con `__init__.py` che può contenere moduli o altri package  |
+| Import              | Meccanismo per usare codice scritto altrove                          |
+| PYTHONPATH          | Variabile d’ambiente che dice a Python dove cercare moduli           |
+| Ambiente virtuale   | Spazio isolato per le dipendenze di un progetto                      |
+| Test                | Verifica automatica del comportamento del codice                     |
+| Test parametrizzato | Test eseguito con input multipli grazie a `@pytest.mark.parametrize` |
+| CLI                 | Interfaccia da terminale per eseguire script Python                  |
+| `argparse`          | Modulo Python per gestire gli argomenti da terminale                 |
+| `--help`            | Opzione automatica per mostrare le istruzioni d’uso                  |
+| `-m`                | Opzione per eseguire moduli come parte di un package                 |
 
 ## 🧠 Obiettivo didattico
 
@@ -120,3 +120,7 @@ Questo branch estende le basi della struttura Python per introdurre:
 - separazione tra parsing e logica applicativa
 - funzioni riutilizzabili e testabili
 - test automatizzati su più casi d’uso
+
+## RISORSE
+
+https://docs.python.org/3/library/argparse.html
